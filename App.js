@@ -3,7 +3,6 @@ import GameCard from './components/GameCard';
 import { useEffect, useState } from 'react';
 import { supabase } from './utils/supabase';
 
-
 export default function App() {
 
   const [jogos,setJogos] = useState([])
@@ -14,15 +13,12 @@ export default function App() {
       .from('jogos')
       .select('*')
       .order('data_brasilia', {ascending: false})
-    }
 
     if(!error){
       setJogos(data)
-    }
+    }}
     carregarJogos();
   },[])
-
-
 
   const agruparPorData = (jogos) => {
     return jogos.reduce((acc, jogo) => {
@@ -46,7 +42,6 @@ export default function App() {
       data: jogosAgrupados[data]
     };
   }); 
-
  
   return (
     <ImageBackground style={styles.container}

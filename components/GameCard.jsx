@@ -32,6 +32,25 @@ export default function GameCard({ game }) {
     CPV: require("../assets/jogos/cape verde.png"),
     IRN: require("../assets/jogos/iran.png"),
     NZL: require("../assets/jogos/new zealand.png"),
+    PAN: require("../assets/jogos/panama.png"),
+    ENG: require("../assets/jogos/england.png"),
+    EGY: require("../assets/jogos/egypt.png"),
+    JOR: require("../assets/jogos/jordan.png"),
+    ARG: require("../assets/jogos/argentina.png"),
+    ALG: require("../assets/jogos/Algeria.png"),
+    AUT: require("../assets/jogos/austria.png"),
+    CRO: require("../assets/jogos/croatia.png"),
+    GHA: require("../assets/jogos/ghana.png"),
+    BEL: require("../assets/jogos/belgium.png"),
+    COD: require("../assets/jogos/republic of the congo.png"),
+    UZB: require("../assets/jogos/uzbekistán.png"),
+    COL: require("../assets/jogos/colombia.png"),
+    POR: require("../assets/jogos/portugal.png"),
+    SEN: require("../assets/jogos/senegal.png"),
+    IRQ: require("../assets/jogos/iraq.png"),
+    NOR: require("../assets/jogos/norway.png"),
+    FRA: require("../assets/jogos/france.png"),
+    
   };
 
   return (
